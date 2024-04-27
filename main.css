@@ -46,6 +46,25 @@
     align-items: end;
 }
 
+.info {
+    display: flex;
+}
+
+.hp-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp {
+    height: 80px;
+    width: 80px;
+    background-image: url("img/HP.png");
+    background-position: center;
+    background-size: cover;
+}
+
 .avatar {
     width: 300px;
     height: 400px;  
