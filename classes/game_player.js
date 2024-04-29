@@ -1,6 +1,6 @@
 class GamePlayer {
-    constructor(hp, name, slots) {
-        this.hp = hp;
+    constructor(name, slots) {
+        this.hp = 0;
         this.name = name;
         this.items = [];
         this.slots = slots;

@@ -5,10 +5,11 @@ class Game {
         this.shots = shots;
         this.max_hp = max_hp;
         this.items = items;
+        this.is_game_active = false;
     }
 
     start_game() {
-
+        this.is_game_active = true;
     }
 
     draw_shots() {
@@ -32,7 +33,7 @@ class Game {
     }
 
     end_game() {
-
+        this.is_game_active = false;
     }
 
     end_round() {
